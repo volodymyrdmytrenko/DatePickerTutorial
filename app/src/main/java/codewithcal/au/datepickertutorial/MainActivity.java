@@ -69,32 +69,32 @@ public class MainActivity extends AppCompatActivity
     private String getMonthFormat(int month)
     {
         if(month == 1)
-            return "JAN";
+            return "СІЧ";
         if(month == 2)
-            return "FEB";
+            return "ЛЮТ";
         if(month == 3)
-            return "MAR";
+            return "БЕР";
         if(month == 4)
-            return "APR";
+            return "КВІ";
         if(month == 5)
-            return "MAY";
+            return "ТРА";
         if(month == 6)
-            return "JUN";
+            return "ЧЕР";
         if(month == 7)
-            return "JUL";
+            return "ЛИП";
         if(month == 8)
-            return "AUG";
+            return "СЕР";
         if(month == 9)
-            return "SEP";
+            return "ВЕР";
         if(month == 10)
-            return "OCT";
+            return "ЖОВ";
         if(month == 11)
-            return "NOV";
+            return "ЛИС";
         if(month == 12)
-            return "DEC";
+            return "ГРУ";
 
         //default should never happen
-        return "JAN";
+        return "СІЧ";
     }
 
     public void openDatePicker(View view)
